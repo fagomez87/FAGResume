@@ -43,7 +43,7 @@ hr {
 
 header {
   background-color: #999;
-  background-image: url(img/fer.png);
+  background-image: url(img/back.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -216,8 +216,13 @@ footer hr {
   margin-bottom: 0;
 }
 
-.experience h2, .experience p, .experience h3 {
+.experience h2, .experience p {
   text-align: center;
+}
+
+.experience h3 {
+  text-align: left;
+
 }
 
 .experience [class*="row"]:last-of-type {
@@ -267,6 +272,9 @@ footer hr {
   font-style: italic;
   color: #888;
   margin-top:  -15px;
+}
+.testimonial h1 {
+  text-align: center;
 }
 
 /* Spotlight */
