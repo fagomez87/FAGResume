@@ -131,6 +131,14 @@ footer hr {
   margin-left: auto;
 }
 
+#profile img {
+  max-height: 30em;
+  max-width: 50em;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 100%;
+}
+
 .row {
   clear: both;
   margin-right: -1%;
@@ -229,6 +237,11 @@ footer hr {
   border: none;
 }
 
+.experience h1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align-last: center; 
+}
 
 @media screen and (min-width: 40em) {
   .experience h2, .experience p {
@@ -244,6 +257,12 @@ footer hr {
   margin-bottom: 0;
   text-align: center;
   margin: 0 auto;
+}
+
+.education h1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align-last: center;
 }
 
 @media screen and (min-width: 40em) {

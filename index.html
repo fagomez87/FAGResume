@@ -9,7 +9,7 @@
 	<!-- stylesheets -->
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<!-- favicon -->
-	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="shortcut icon" href="img/fer1.jpeg">
 	<!-- just in case viewer is using Internet Explorer -->
 	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
@@ -24,14 +24,23 @@
 	</header>
 	
 	<div class="container">
-		
+		<div id="profile">
 		<!-- Introduction-->
-		<section class="center">
-			<h1>Bienvenido a mi perfil</h1>
-			<p>Soy un profesional de informática con amplia experiencia en el desarrollo de software (páginas web en especial). Entre las cualidades que valoro y a las que aspiro destaco la responsabilidad, la búsqueda de mejora continua, la pro actividad y el trabajo en equipo. Profesionalmente busco generar un impacto, tanto en la compañía como en el equipo.
-			</p>
-		</section>
-			
+			<section class="center">
+				<img src="img/fer1.jpeg" target="Fernando Gomez" alt="Fernando Gomez">
+				<h1>Bienvenido a mi perfil</h1>
+				<p>Soy un profesional de informática con amplia experiencia en el desarrollo de software (páginas web en especial). Entre las cualidades que valoro y a las que aspiro destaco la responsabilidad, la búsqueda de mejora continua, la pro actividad y el trabajo en equipo. Profesionalmente busco generar un impacto, tanto en la compañía como en el equipo.
+				</p>
+			</section>
+		</div>	
+		<hr>
+		
+		<div class="container">
+			<div id="personal">
+				<p>Ver mis <button type="button" onclick="personalData()"><strong>datos personales</strong></button></p>
+			</div>
+		</div>
+
 		<hr>
 		
 		<!-- Testimonials-->	
@@ -39,21 +48,21 @@
 			<h1>Referencias/Recomendaciones</h1>
 			<div class="row">
 				<div class="grid-2">
-					<img src="img/PG.png">
+					<img src="img/0.jpeg">
 					<h2>Pablo Gómez</h2>
 					<h3>IT coordinator at TechnipFMC</h3>
 					<p>He supervisado a Fernando en el área de soporte técnico y desarrollo. Es un profesional apasionado por su trabajo. Siempre respondió de manera clara y eficiente. Posee una gran capacidad para trabajar en grupo y llevar a cabo una tarea desde su desarrollo hasta su implementación. Tiene grande aptitudes de líder entre sus compañeros.Es un profesional responsable, de buen carácter y actitud positiva. Siempre atento y buscando desafíos.</p>
 				</div>
 				
 				<div class="grid-2">
-					<img src="img/LG.jpg">
+					<img src="img/1.jpeg">
 					<h2>Luis Esteban Gonzalez</h2>
 					<h3>Analista Desarrollador</h3>
 					<p>Fernando es un excelente compañero, proactivo y con amplios conocimientos en desarrollo y automatizacion. Una persona confiable, dinamica, muy respetuosa y organizada.</p>
 				</div>
 		
 				<div class="grid-2">
-					<img src="img/MC.jpg">
+					<img src="img/2.jpeg">
 					<h2>Martin Campanella</h2>
 					<h3>Semi Senior Java Developer at Despegar</h3>
 					<p>Excelente profesional y compañero, proactivo con muchas ganas de aprender día a día. Sabe llevar a cabo de forma clara todas sus tareas tanto desde el análisis hasta el desarrollo e implementación de las mismas. Es un placer trabajar con él en equipo, siempre atento a todo lo que se necesita. Es muy responsable y comprometido con su trabajo.</p>
@@ -84,6 +93,7 @@
 	<div class="container">
 	
 		<section class="education">	
+			<h1>Estudios</h1>
 			<img src="img/ort.jpg">
 			<h2>Analista de Sistemas -- ORT Argentina (En curso)</h2>
 			<img src="img/CAECE.png">
@@ -96,6 +106,7 @@
 			
 		<!--Experience Tables-->
 		<section class="experience">
+			<h1>Experiencia laboral</h1>
 			<div class="row">
 				<div class="grid-2">
 					<h2>Despegar.com</h2>
@@ -202,18 +213,18 @@
 					<ul>
 						<li>Java</li>
 						<li>Javascript</li>
-						<li>Ruby</li>
-						<li>Regular Expressions</li>
-						<li>PHP</li>
-						<li>Jquery</li>
-						<li>MySql</li>
-						<li>Cassandra</li>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>Git</li>
-						<li>Spring</li>
-						<li>Junit</li>
 						<li>TestNG</li>
+						<li>Ruby</li>
+						<li>Junit</li>
+						<li>Spring</li>
+						<li>HTML</li>
+						<li>Cassandra</li>
+						<li>MySql</li>
+						<li>Git</li>
+						<li>CSS</li>
+						<li>Regular Expressions</li>
+						<li>Jquery</li>
+						<li>PHP</li>
 					</ul>
 				</div>
 
@@ -252,6 +263,18 @@
 		</footer>
 		
 	</div><!-- End Container -->
-	
+	<script type="text/javascript">
+		function personalData() {
+			var newLine = "\r\n"
+			var message = "Mis datos"
+			message += newLine;
+			message += "Fecha de nacimiento: 08/01/1987"
+			message += newLine;
+			message += "Telefono: (011) 4857-1055";
+			message += newLine;
+			message += "CUIL: 20-32823631-2";
+			alert(message);
+		}
+	</script>
 </body>
 </html>
